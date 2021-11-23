@@ -16,7 +16,7 @@ while True:
 
     print("received connection from " % str(address))
 
-    message = 'Hello! Thank you for connecting to the server.' + "\r\n"
+    message = 'This is a test message from the TCP server being received by the TCP client.' + "\r\n"
     
     clientsocket.send(message.encode('ascii'))
 
